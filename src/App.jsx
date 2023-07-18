@@ -1,16 +1,21 @@
+import Nav from './components/Nav/Nav'
+import Home from './components/Home/Home'
+import AboutMe from './components/AboutMe/AboutMe'
+import Proyects from './components/Proyects/Proyects'
+import Technologies from './components/Technologies/Technologies'
+import Contact from './components/Contact/Contact'
+
 import './App.css'
 
 function App () {
-  const person = {
-    name: 'Troy',
-    lastName: 'Pernía'
-  }
-
-  console.log(person)
-
   return (
     <>
-      <h1>Hola mundo!</h1>
+      <Nav />
+      <Home />
+      <AboutMe />
+      <Proyects />
+      <Technologies />
+      <Contact />
     </>
   )
 }
