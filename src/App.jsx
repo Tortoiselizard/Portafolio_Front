@@ -1,7 +1,7 @@
 import Nav from './components/Nav/Nav'
 import Home from './components/Home/Home'
 import AboutMe from './components/AboutMe/AboutMe'
-import Proyects from './components/Proyects/Proyects'
+import Experience from './components/Experience/Experience'
 import Technologies from './components/Technologies/Technologies'
 import Contact from './components/Contact/Contact'
 
@@ -13,7 +13,7 @@ function App () {
       <Nav />
       <Home />
       <AboutMe />
-      <Proyects />
+      <Experience />
       <Technologies />
       <Contact />
     </>
