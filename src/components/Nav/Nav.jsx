@@ -5,6 +5,7 @@ function Nav () {
     <div className={style.Nav}>
       <ul>
         <li>Inicio</li>
+        <li>Sobre mi</li>
         <li>Proyectos</li>
         <li>Tecnologías</li>
         <li>Contacto</li>
