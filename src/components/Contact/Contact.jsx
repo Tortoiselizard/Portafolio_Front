@@ -2,9 +2,13 @@ import style from './Contact.module.css'
 
 function Contact () {
   return (
-    <section className={style.ContactContainer}>
-      <h1>Estoy en Contact</h1>
-    </section>
+    <footer className={style.ContactContainer}>
+      <ul>
+        <li>GitHub</li>
+        <li>LinkedIn</li>
+        <li>Gmail</li>
+      </ul>
+    </footer>
   )
 }
 
