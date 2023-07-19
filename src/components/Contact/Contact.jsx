@@ -4,9 +4,9 @@ function Contact () {
   return (
     <footer className={style.ContactContainer}>
       <ul>
-        <li>GitHub</li>
-        <li>LinkedIn</li>
-        <li>Gmail</li>
+        <li><a /></li>
+        <li><a /></li>
+        <li><a /></li>
       </ul>
     </footer>
   )
