@@ -1,0 +1,16 @@
+.ContactContainer {
+    border: thin solid salmon;
+}
+
+.ContactContainer ul {
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ContactContainer ul li {
+    border: thin solid green;
+    margin: 0px 15px;
+}
