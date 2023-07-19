@@ -1,6 +1,19 @@
 .HomeContainer {
-    border: thin solid gray;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.HomeContainer h1 {
+    margin: 50px 0px;
+    margin-bottom: 0px;
+}
+
+.HomeContainer h2 {
+    margin: 20px 0px;
+    margin-bottom: 0px;
+}
+
+.HomeContainer h1, h2, p {
+    text-align: start;
 }
