@@ -26,7 +26,7 @@
 .main-fixed-Container {
   position: fixed;
   top: 0px;
-  left: 20vw;
+  left: 15vw;
   height: 100vh;
   width: 30vw;
   padding-left: 30px;
@@ -38,9 +38,9 @@
 
 .main-scroll-Contianer {
   position: relative;
-  left: 50vw;
+  left: 45vw;
   padding-top: 80px;
-  width: 35vw;
+  width: 40vw;
   border: medium solid green;
   display: flex;
   flex-direction: column;
