@@ -1,4 +1,4 @@
-import Nav from './components/Nav/Nav'
+// import Nav from './components/Nav/Nav'
 import Home from './components/Home/Home'
 import AboutMe from './components/AboutMe/AboutMe'
 import Experience from './components/Experience/Experience'
@@ -10,15 +10,19 @@ import './App.css'
 
 function App () {
   return (
-    <>
-      <Nav />
-      <Home />
-      <AboutMe />
-      <Experience />
-      <Projects />
-      <Technologies />
-      <Contact />
-    </>
+    <main className='main-Container'>
+      <section className='main-fixed-Container'>
+        <Home />
+        {/* <Nav /> */}
+        <Contact />
+      </section>
+      <section className='main-scroll-Contianer'>
+        <AboutMe />
+        <Experience />
+        <Projects />
+        <Technologies />
+      </section>
+    </main>
   )
 }
 
