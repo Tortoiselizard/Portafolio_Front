@@ -3,12 +3,24 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color: rgba(160, 225, 236, 0.8);
 }
 
 .main-Container {
   position: absolute;
   top: 0px;
-  right: 15vw;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  max-width: 100%;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  background-image: radial-gradient(circle at 0% 70%, #0A768A, #04343C,#04343C ,#04343C);
+  background-attachment: fixed;
+  background-position: bottom left;
 }
 
 .main-fixed-Container {
@@ -26,6 +38,8 @@
 }
 
 .main-scroll-Contianer {
+  position: relative;
+  right: 15vw;
   border: medium solid green;
   width: 30vw;
   display: flex;
