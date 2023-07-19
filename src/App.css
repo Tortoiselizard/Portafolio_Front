@@ -24,7 +24,6 @@
 }
 
 .main-fixed-Container {
-  border: medium solid red;
   position: fixed;
   top: 0px;
   left: 20vw;
