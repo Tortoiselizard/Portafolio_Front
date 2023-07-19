@@ -2,13 +2,13 @@ import style from './Nav.module.css'
 
 function Nav () {
   return (
-    <div className={style.Nav}>
+    <nav className={style.Nav}>
       <ul>
-        <li>Sobre mi</li>
-        <li>Experiencia</li>
-        <li>Proyectos</li>
+        <li><a>Sobre mi</a></li>
+        <li><a>Experiencia</a></li>
+        <li><a>Proyectos</a></li>
       </ul>
-    </div>
+    </nav>
   )
 }
 
