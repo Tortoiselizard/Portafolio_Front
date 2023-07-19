@@ -35,13 +35,13 @@
 }
 
 .ContactContainer ul li:nth-child(1) a::before {
-    background-image: url('../../../public/img/githubLogoWhite.png');
+    background-image: url('/img/githubLogoWhite.png');
 }
 
 .ContactContainer ul li:nth-child(2) a::before {
-    background-image: url('../../../public/img/linkedInLogoWhite.png');
+    background-image: url('/img/linkedInLogoWhite.png');
 }
 
 .ContactContainer ul li:nth-child(3) a::before {
-    background-image: url('../../../public/img/gmailLogoWhite.png');
+    background-image: url('/img/gmailLogoWhite.png');
 }
