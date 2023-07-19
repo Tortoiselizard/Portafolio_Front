@@ -1,26 +1,26 @@
 import style from './Projects.module.css'
+import noveltyBooks from '../../../public/img/noveltyBooks.jpg'
+import piDogs from '../../../public/img/PI-Dogs.jpg'
 
 function Projects () {
   return (
     <section className={style.ProjectsContainer}>
-      <h1>Proyectos</h1>
       <ul>
         <li>
-          <img src='' alt='Novelty-Books' />
-          <div>
+          <img src={noveltyBooks} alt='Novelty-Books' />
+          <div className={style.informationOptionContainer}>
             <header>
               <a href='https://novelty-books.vercel.app/'><h3>Novelty Books</h3></a>
             </header>
             <main>
               <p>Participé en el desarrollo de la aplicación Novelty Books, un E-commers de libros físicos. Trabajé en el desarrollo de las herramientas que permiten gestionar la aplicación, facilitando al administrador la búsqueda de información almacenada en la base de datos, además de añadir un apartado de estadísticas relevantes donde se pueden visualizar gráficas y tablas referentes a los usuarios, libros, ordenes de compra y ventas de los libros.</p>
-              <br />
               <p>Entre otras actividades, también participé en la integración del sistema de filtrados combinados y ordenado de los libros en el Front-end de la aplicación, pudiendo ejecutarlos individualmente o en conjunto para hacer búsquedas más precisas.</p>
             </main>
           </div>
         </li>
         <li>
-          <img src='' alt='PI-Dogs' />
-          <div>
+          <img src={piDogs} alt='PI-Dogs' />
+          <div className={style.informationOptionContainer}>
             <header>
               <a href='https://pi-dogs-front-mu.vercel.app/'><h3>PI-Dogs</h3></a>
             </header>
