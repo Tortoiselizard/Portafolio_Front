@@ -1,7 +1,25 @@
 .Nav {
-    border: thin solid blue;
+    margin-top: 40px;
 }
 
 .Nav ul {
     list-style: none;
+}
+
+.Nav ul li {
+    position: relative;
+    margin: 10px;
+    text-align: start;
+}
+
+.Nav ul li::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    top: 0px;
+    left: -50px;
+    background-image: url('../../../public/img/vinetaWhite.png');
+    background-position: center;
+    background-size: cover;
 }
