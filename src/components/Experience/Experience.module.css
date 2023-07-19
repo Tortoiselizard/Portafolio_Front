@@ -1,0 +1,50 @@
+.listExperiencecontainer {
+    list-style: none;
+    padding: 0px;
+}
+
+.OptionExperiencecontainer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.dateOption {
+    width: 30%;
+    margin: 0px;
+}
+
+.OptionExperiencecontainer div {
+    width: 70%;    
+}
+
+.OptionExperiencecontainer div header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.OptionExperiencecontainer div header h3, h4 {
+    margin: 0px;
+}
+
+.OptionExperiencecontainer div footer {
+    margin-bottom: 20px;
+}
+
+.listSkills {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0px;
+}
+
+.listSkills li {
+    border: thin solid white;
+    height: 30px;
+    margin: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
