@@ -4,9 +4,24 @@ function Nav () {
   return (
     <nav className={style.Nav}>
       <ul>
-        <li><a>Sobre mi</a></li>
-        <li><a>Experiencia</a></li>
-        <li><a>Proyectos</a></li>
+        <li>
+          <a>
+            <div />
+            <label>Sobre mi</label>
+          </a>
+        </li>
+        <li>
+          <a>
+            <div />
+            <label>Experiencia</label>
+          </a>
+        </li>
+        <li>
+          <a>
+            <div />
+            <label>Proyectos</label>
+          </a>
+        </li>
       </ul>
     </nav>
   )
