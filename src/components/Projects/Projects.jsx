@@ -4,7 +4,7 @@ import piDogs from '../../img/PI-Dogs.jpg'
 
 function Projects () {
   return (
-    <section className={style.ProjectsContainer}>
+    <section id='Projects' className={style.ProjectsContainer}>
       <h2>Proyectos</h2>
       <ul>
         <li className={style.optionProyect}>
