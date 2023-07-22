@@ -66,4 +66,18 @@
     color: #0FB8D6;
     border: none;
     border-radius: 10px;
+    opacity: 0;
+    animation: appeear 1s alternate ease;
+}
+
+@keyframes appeear {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
