@@ -7,7 +7,7 @@
     padding: 0px;
 }
 
-.ProjectsContainer ul li {
+.optionProyect {
     margin-bottom: 20px;
     display: flex;
     align-items: flex-start;
@@ -28,4 +28,26 @@
 
 .informationOptionContainer h3 {
     margin: 0px;
+}
+
+.informationOptionContainer footer {
+    margin-bottom: 20px;
+}
+
+.listSkills {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0px;
+}
+
+.listSkills li {
+    height: 30px;
+    margin: 5px 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgba(1, 25, 74, 0.3);
+    color: #0FB8D6;
 }
