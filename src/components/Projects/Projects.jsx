@@ -1,10 +1,11 @@
 import style from './Projects.module.css'
-import noveltyBooks from '../../../public/img/noveltyBooks.jpg'
-import piDogs from '../../../public/img/PI-Dogs.jpg'
+import noveltyBooks from '../../img/noveltyBooks.jpg'
+import piDogs from '../../img/PI-Dogs.jpg'
 
 function Projects () {
   return (
     <section className={style.ProjectsContainer}>
+      <h2>Proyectos</h2>
       <ul>
         <li>
           <img src={noveltyBooks} alt='Novelty-Books' />
