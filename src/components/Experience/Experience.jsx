@@ -9,7 +9,7 @@ function Experience () {
           <p className={style.dateOption}>ene. 2023 - feb. 2023</p>
           <div>
             <header>
-              <h3><a href='https://novelty-books.vercel.app/'>Novelty Books</a></h3>
+              <a href='https://novelty-books.vercel.app/'><h3>Novelty Books</h3></a>
               <h4>Desarrollador web</h4>
             </header>
             <main>
@@ -43,7 +43,7 @@ function Experience () {
           <p className={style.dateOption}>dic. 2022 - ene. 2023</p>
           <div>
             <header>
-              <h3><a href='https://pi-dogs-front-mu.vercel.app/'>PI-Dogs</a></h3>
+              <a href='https://pi-dogs-front-mu.vercel.app/'><h3>PI-Dogs</h3></a>
               <h4>Desarrollador web</h4>
             </header>
             <main>
