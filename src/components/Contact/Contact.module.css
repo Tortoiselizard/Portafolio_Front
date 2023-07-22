@@ -1,4 +1,5 @@
 .ContactContainer {
+    position: relative;
     margin-bottom: 20px;
 }
 
@@ -17,31 +18,51 @@
     width: 30px;
 }
 
-.ContactContainer ul li:nth-child(3) {
-    width: 50px;
-    height: 50px;
-}
-
-.ContactContainer ul li a::before {
-    content: '';
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    height: 100%;
-    width: 100%;
+.ContactContainer ul li a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.ContactContainer ul li:nth-child(1) a::before {
+.ContactContainer ul li:nth-child(3) {
+    width: 50px;
+    height: 50px;
+}
+
+.ContactContainer ul li:nth-child(3) a {
+    width: 50px;
+    height: 50px;
+}
+
+.ContactContainer ul li:nth-child(1) a {
     background-image: url('/img/githubLogoWhite.png');
 }
 
-.ContactContainer ul li:nth-child(2) a::before {
+.ContactContainer ul li:nth-child(2) a {
     background-image: url('/img/linkedInLogoWhite.png');
 }
 
-.ContactContainer ul li:nth-child(3) a::before {
+.ContactContainer ul li:nth-child(3) a {
     background-image: url('/img/gmailLogoWhite.png');
 }
+
+.labelGmail {
+    position: absolute;
+    top: 20px;
+    left: 100%;
+    height: 30px;
+    min-width: 50px;
+    padding: 5px 10px;
+    font-size: 1em;
+    background-color: rgba(1, 25, 74, 0.3);
+    color: #0FB8D6;
+    border: none;
+    border-radius: 10px;
+}
+
+/* .inputGmail::selection {
+    background-color: transparent;
+} */
