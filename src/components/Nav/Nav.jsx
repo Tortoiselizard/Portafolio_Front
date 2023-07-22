@@ -1,6 +1,18 @@
+import { useEffect } from 'react'
+
 import style from './Nav.module.css'
 
 function Nav () {
+  useEffect(() => {
+    const handleScroll = () => {
+      console.log('Scrolling...')
+    }
+    window.addEventListener('scroll', handleScroll)
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
+
   function scrollToSection (sectionId) {
     const section = document.getElementById(sectionId)
     section.scrollIntoView({ behavior: 'smooth' })
