@@ -13,7 +13,7 @@ function Contact () {
     textArea.remove()
     footer.appendChild(message)
     message.classList.add(style.labelGmail)
-    setTimeout(() => message.remove(), 1000)
+    setTimeout(() => message.remove(), 2000)
   }
 
   return (
