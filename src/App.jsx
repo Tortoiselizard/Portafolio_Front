@@ -2,6 +2,7 @@ import Home from './components/Home/Home'
 import AboutMe from './components/AboutMe/AboutMe'
 import Experience from './components/Experience/Experience'
 import Projects from './components/Projects/Projects'
+import Technologies from './components/Technologies/Technologies'
 import Contact from './components/Contact/Contact'
 
 import './App.css'
@@ -17,6 +18,7 @@ function App () {
         <AboutMe />
         <Experience />
         <Projects />
+        <Technologies />
       </section>
     </main>
   )
