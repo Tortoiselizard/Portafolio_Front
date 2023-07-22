@@ -22,6 +22,12 @@ function Nav () {
             <label>Proyectos</label>
           </a>
         </li>
+        <li>
+          <a>
+            <div />
+            <label>Habilidades</label>
+          </a>
+        </li>
       </ul>
     </nav>
   )
