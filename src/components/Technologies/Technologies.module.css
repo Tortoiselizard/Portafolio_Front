@@ -30,3 +30,8 @@
     margin: 5px;
     padding: 10px;
 }
+
+.TechnologiesContainer img {
+    height: 50px;
+    object-fit: contain;
+}
