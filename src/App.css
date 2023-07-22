@@ -23,6 +23,14 @@
   background-position: bottom left;
 }
 
+.main-Container h1, h2, h3 {
+  color: white;
+}
+
+.main-Container span {
+  color: white;
+}
+
 .main-fixed-Container {
   position: fixed;
   top: 0px;
