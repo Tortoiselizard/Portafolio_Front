@@ -43,15 +43,15 @@
 }
 
 .ContactContainer ul li:nth-child(1) a {
-    background-image: url('/img/githubLogoWhite.png');
+    background-image: url('../../img/githubLogoWhite.png');
 }
 
 .ContactContainer ul li:nth-child(2) a {
-    background-image: url('/img/linkedInLogoWhite.png');
+    background-image: url('../../img/linkedInLogoWhite.png');
 }
 
 .ContactContainer ul li:nth-child(3) a {
-    background-image: url('/img/gmailLogoWhite.png');
+    background-image: url('../../img/gmailLogoWhite.png');
 }
 
 .labelGmail {
