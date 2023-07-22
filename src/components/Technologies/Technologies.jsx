@@ -16,7 +16,7 @@ import githubLogo from '../../img/githubLogoWhite.png'
 
 function Technologies () {
   return (
-    <section className={style.TechnologiesContainer}>
+    <section id='Technologies' className={style.TechnologiesContainer}>
       <h2>Habilidades</h2>
       <div>
         <ul className={style.TechnologiesFrontContainer}>
