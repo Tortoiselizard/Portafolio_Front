@@ -3,6 +3,7 @@ import style from './Experience.module.css'
 function Experience () {
   return (
     <section className={style.ExperienceContainer}>
+      <h2>Experiencia</h2>
       <ul className={style.listExperiencecontainer}>
         <li className={style.OptionExperiencecontainer}>
           <p className={style.dateOption}>ene. 2023 - feb. 2023</p>
