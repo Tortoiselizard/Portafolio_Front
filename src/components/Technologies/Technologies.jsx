@@ -3,7 +3,7 @@ import style from './Technologies.module.css'
 function Technologies () {
   return (
     <section className={style.TechnologiesContainer}>
-      <h1>Estoy en Technologies</h1>
+      <h2>Habilidades</h2>
       <div>
         <ul className={style.TechnologiesFrontContainer}>
           <li>HTML</li>
