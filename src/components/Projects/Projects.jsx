@@ -8,7 +8,7 @@ function Projects () {
       <h2>Proyectos</h2>
       <ul>
         <li className={style.optionProyect}>
-          <img src={noveltyBooks} alt='Novelty-Books' />
+          <a href='https://novelty-books.vercel.app/'><img src={noveltyBooks} alt='Novelty-Books' /></a>
           <div className={style.informationOptionContainer}>
             <header>
               <a href='https://novelty-books.vercel.app/'><h3>Novelty Books</h3></a>
@@ -41,7 +41,7 @@ function Projects () {
           </div>
         </li>
         <li className={style.optionProyect}>
-          <img src={piDogs} alt='PI-Dogs' />
+          <a href='https://pi-dogs-front-mu.vercel.app/'><img src={piDogs} alt='PI-Dogs' /></a>
           <div className={style.informationOptionContainer}>
             <header>
               <a href='https://pi-dogs-front-mu.vercel.app/'><h3>PI-Dogs</h3></a>
