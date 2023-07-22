@@ -1,3 +1,7 @@
+.ProjectsContainer h2 {
+    margin-bottom: 50px;
+}
+
 .ProjectsContainer ul {
     list-style: none;
     padding: 0px;
