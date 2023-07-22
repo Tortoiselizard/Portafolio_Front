@@ -1,0 +1,32 @@
+.TechnologiesContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TechnologiesContainer h2 {
+    align-self: flex-start;
+}
+
+.TechnologiesContainer div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TechnologiesContainer ul {
+    width: 100%;
+    padding: 0px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.TechnologiesContainer li {
+    margin: 5px;
+    padding: 10px;
+}
