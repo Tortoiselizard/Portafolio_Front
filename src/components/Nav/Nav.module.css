@@ -51,3 +51,12 @@
 .Nav ul li:hover > a div {
     width: 50px;
 }
+
+.currentSectionA {
+    color: white !important;
+    font-size: 1.2em;
+}
+
+.currentSectionDiv {
+    width: 50px !important;
+}
