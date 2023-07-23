@@ -1,7 +1,7 @@
 import style from './Technologies.module.css'
 
 import htmlLogo from '../../img/html5LogoWhite.png'
-import cssLogo from '../../img/css3logoWhite.png'
+import cssLogo from '../../img/css3LogoWhite.png'
 import javascriptLogo from '../../img/javascriptLogoWhite.png'
 import reactLogo from '../../img/reactLogoWhite.png'
 import reduxLogo from '../../img/reduxLogoWhite.png'
