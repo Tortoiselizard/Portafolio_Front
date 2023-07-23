@@ -1,7 +1,6 @@
 import style from './Technologies.module.css'
 
 import htmlLogo from '../../img/html5LogoWhite.png'
-import cssLogo from '../../img/css3LogoWhite.png'
 import javascriptLogo from '../../img/javascriptLogoWhite.png'
 import reactLogo from '../../img/reactLogoWhite.png'
 import reduxLogo from '../../img/reduxLogoWhite.png'
@@ -13,6 +12,7 @@ import postgreSQLLogo from '../../img/postgreSQLLogoWhite2.png'
 import sqlLogo from '../../img/SQLLogoWhite.png'
 import gitLogo from '../../img/GitLogoWhite.png'
 import githubLogo from '../../img/githubLogoWhite.png'
+import cssLogo from '../../img/css3LogoWhite.png'
 
 function Technologies () {
   return (
