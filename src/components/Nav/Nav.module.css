@@ -60,3 +60,28 @@
 .currentSectionDiv {
     width: 50px !important;
 }
+
+/* Estilos para dispositivos móbiles pequeños */
+@media screen and (max-width: 480px) {
+
+    .Nav {
+        margin-top: 10px;
+    }
+    
+    .Nav ul {
+        list-style: none;
+        height: auto;
+        width: 230px;
+        padding: 0px;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Nav ul li a div {
+        display: none;
+    }
+  }
