@@ -21,3 +21,19 @@
 .HomeContainer p {
     width: 80%;
 }
+
+/* Estilos para dispositivos móbiles pequeños */
+@media screen and (max-width: 480px) {
+
+    .HomeContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        
+    .HomeContainer h1, h2, p {
+        text-align: center;
+        margin: 10px 0px;
+        margin-bottom: 0px;
+    }
+  }
