@@ -81,3 +81,43 @@
         opacity: 0;
     }
 }
+
+/* Estilos para dispositivos móbiles pequeños */
+@media screen and (max-width: 480px) {
+
+    .ContactContainer {
+        align-self: flex-start;
+        margin: 0px 20px;
+    }
+
+    .ContactContainer ul {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .ContactContainer ul li {
+        position: relative;
+        margin: 5px 0px;
+    }
+
+    .ContactContainer ul li a {
+        display: inline-block;
+        height: 25px;
+        width: 25px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: transform 0.3s ease;
+    }
+
+    .ContactContainer ul li:nth-child(3) {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ContactContainer ul li:nth-child(3) a {
+        width: 30px;
+        height: 30px;
+    }
+  }

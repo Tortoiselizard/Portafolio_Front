@@ -2,3 +2,15 @@
     margin-top: 0px;
     margin-bottom: 15px;
 }
+
+/* Estilos para dispositivos móbiles pequeños */
+@media screen and (max-width: 480px) {
+
+    .AboutMeContainer {
+        width: 100%;
+    }
+    
+    .AboutMeContainer p {
+        text-align: start;
+    }
+  }

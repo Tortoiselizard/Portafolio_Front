@@ -14,7 +14,7 @@ function App () {
         <Home />
         <Contact />
       </section>
-      <section className='main-scroll-Contianer'>
+      <section id='main-scroll-Contianer' className='main-scroll-Contianer'>
         <AboutMe />
         <Experience />
         <Projects />
