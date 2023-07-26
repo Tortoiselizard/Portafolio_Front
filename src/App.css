@@ -58,7 +58,7 @@
 @media screen and (max-width: 480px) {
 
   #root {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .main-fixed-Container {
@@ -76,7 +76,7 @@
   .main-scroll-Contianer {
     position: fixed;
     left: 20vw;
-    top: 40vh;
+    top: 220px;
     margin: 0px;
     padding: 0px;
     width: 70vw;
