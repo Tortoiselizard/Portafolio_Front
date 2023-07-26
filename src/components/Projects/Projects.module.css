@@ -28,7 +28,7 @@
 
 .informationOptionContainer h3 {
     position: relative;
-    margin: 0px;
+    margin: 5px;
 }
 
 .informationOptionContainer h3::after {
