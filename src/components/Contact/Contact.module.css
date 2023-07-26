@@ -1,6 +1,6 @@
 .ContactContainer {
     position: absolute;
-    margin-bottom: 20px;
+    margin: 20px;
     bottom: 0px;
 }
 
@@ -88,7 +88,8 @@
 
     .ContactContainer {
         align-self: flex-start;
-        margin: 0px 20px;
+        margin: 10px 20px;
+        bottom: 40px;
     }
 
     .ContactContainer ul {
@@ -120,5 +121,13 @@
     .ContactContainer ul li:nth-child(3) a {
         width: 30px;
         height: 30px;
+    }
+
+    .labelGmail {
+        top: 95%;
+        left: -10px;
+        height: 20px;
+        padding: 5px;
+        font-size: 12px;
     }
   }
