@@ -6,7 +6,7 @@ const arraySections = ['#AboutMe', '#Experience', '#Projects']
 
 function Nav () {
   useEffect(() => {
-    const handleScroll = () => {
+    const handleScroll = (n) => {
       const objectSections = {}
       arraySections.map(section => document.querySelector(section)).forEach((section, index) => {
         objectSections[arraySections[index].slice(1)] = section.getBoundingClientRect()
@@ -15,20 +15,42 @@ function Nav () {
         arraySections.forEach(section => {
           const sectionCurrent = document.getElementsByName(section.slice(1))[0]
           const currentDiv = sectionCurrent.querySelector('div')
-          if (objectSections[section.slice(1)].top <= 100 && objectSections[section.slice(1)].bottom > 100) {
+          if (objectSections[section.slice(1)].top <= n && objectSections[section.slice(1)].bottom > n) {
+            console.log('entre con:', section.slice(1))
             sectionCurrent.classList.add(style.currentSectionA)
             currentDiv.classList.add(style.currentSectionDiv)
           } else {
-            sectionCurrent.classList.remove(style.currentSectionA)
-            currentDiv.classList.remove(style.currentSectionDiv)
+            sectionCurrent.classList.forEach(className => {
+              if (className === style.currentSectionA) {
+                sectionCurrent.classList.add(style.currentSectionContract)
+                setTimeout(() => {
+                  sectionCurrent.classList.remove(style.currentSectionA)
+                  sectionCurrent.classList.remove(style.currentSectionContract)
+                  currentDiv.classList.remove(style.currentSectionDiv)
+                }, 300)
+              }
+            })
           }
         })
       }
       selectCurrentSection(objectSections)
     }
-    window.addEventListener('scroll', handleScroll)
-    return () => {
-      window.removeEventListener('scroll', handleScroll)
+    function callSelectCurrentSection () {
+      if (window.innerWidth > 480) handleScroll(100)
+      else handleScroll(192)
+    }
+
+    if (window.innerWidth > 480) {
+      window.addEventListener('scroll', callSelectCurrentSection)
+      return () => {
+        window.removeEventListener('scroll', callSelectCurrentSection)
+      }
+    } else {
+      const mainScrollContianer = document.getElementById('main-scroll-Contianer')
+      mainScrollContianer.addEventListener('scroll', callSelectCurrentSection)
+      return () => {
+        mainScrollContianer.removeEventListener('scroll', callSelectCurrentSection)
+      }
     }
   }, [])
 
