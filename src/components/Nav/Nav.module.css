@@ -84,4 +84,73 @@
     .Nav ul li a div {
         display: none;
     }
+
+    .Nav ul li a {
+        position: relative;
+    }
+
+    .Nav a::after {
+        content: '';
+        background-color: white;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 2px;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+
+    .Nav ul li:hover > a {
+        color: white;
+        font-size: 1.2em;
+    }
+
+    .Nav a::after {
+        transform: scaleX(0);
+        transform-origin: bottom center;
+    }
+    
+    .Nav a:hover::after {
+        transform: scaleX(1) !important;
+        transform-origin: bottom center !important;
+    }
+
+    .currentSectionA::after {
+        content: '';
+        background-color: white;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 2px;
+        display: block;
+        transition: transform 0.3s ease;
+        animation: grow 0.3s ease forwards;
+    }
+
+    @keyframes grow {
+        from {
+            transform: scaleX(0);
+            transform-origin: bottom center;
+        }
+        to {
+            transform: scaleX(1);
+            transform-origin: bottom center;
+        }
+    }
+
+    .currentSectionContract::after {
+        animation: contract 0.3s ease forwards;
+    }
+
+    @keyframes contract {
+        from {
+            transform: scaleX(1);
+            transform-origin: bottom center;
+        }
+        to {
+            transform: scaleX(0);
+            transform-origin: bottom center;
+        }
+    }
+
   }
