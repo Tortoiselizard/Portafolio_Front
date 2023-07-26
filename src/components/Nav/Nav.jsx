@@ -36,7 +36,7 @@ function Nav () {
     }
     function callSelectCurrentSection () {
       if (window.innerWidth > 480) handleScroll(100)
-      else handleScroll(230)
+      else handleScroll(240)
     }
 
     if (window.innerWidth > 480) {
