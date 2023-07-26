@@ -27,12 +27,12 @@
 }
 
 .TechnologiesContainer li {
-    margin: 3px;
-    padding: 5px;
+    margin: 5px;
+    padding: 10px;
 }
 
 .TechnologiesContainer img {
-    height: 30px;
+    height: 50px;
     object-fit: contain;
 }
 
@@ -41,5 +41,15 @@
 
     .TechnologiesContainer {
         width: 100%;
+    }
+
+    .TechnologiesContainer li {
+        margin: 3px;
+        padding: 5px;
+    }
+
+    .TechnologiesContainer img {
+        height: 30px;
+        object-fit: contain;
     }
   }
