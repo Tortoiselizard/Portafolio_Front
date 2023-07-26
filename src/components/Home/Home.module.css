@@ -32,7 +32,7 @@
     }
         
     .HomeContainer h1, h2, p {
-        text-align: center;
+        text-align: start;
         margin: 10px 0px;
         margin-bottom: 0px;
     }
