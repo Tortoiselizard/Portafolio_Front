@@ -114,6 +114,10 @@
         transition: transform 0.3s ease;
     }
 
+    .ContactContainer ul li a:hover {
+        transform: scale(1);
+    }
+
     .ContactContainer ul li:nth-child(3) {
         width: 30px;
         height: 30px;
