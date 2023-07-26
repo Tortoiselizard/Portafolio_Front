@@ -6,7 +6,7 @@ function Home () {
     <section className={style.HomeContainer}>
       <h1>Troy Pernía</h1>
       <h2>Desarrollador Web Full Stack</h2>
-      <p>Apacionado de la salud, educación y del <strong><span>Desarrollo Web</span></strong></p>
+      <p className={style.phraseHome}>Apacionado a la salud, educación y al <strong><span>Desarrollo Web</span></strong></p>
       <Nav />
     </section>
   )
