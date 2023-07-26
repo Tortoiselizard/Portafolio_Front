@@ -72,4 +72,18 @@
     justify-content: flex-start;
     align-items: center;
   }
+
+  .main-scroll-Contianer {
+    position: fixed;
+    left: 20vw;
+    top: 40vh;
+    margin: 0px;
+    padding: 0px;
+    width: 70vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+  }
 }
