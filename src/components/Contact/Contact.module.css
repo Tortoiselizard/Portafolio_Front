@@ -1,6 +1,7 @@
 .ContactContainer {
-    position: relative;
+    position: absolute;
     margin-bottom: 20px;
+    bottom: 0px;
 }
 
 .ContactContainer ul {
