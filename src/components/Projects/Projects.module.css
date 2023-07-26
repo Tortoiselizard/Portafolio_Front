@@ -73,3 +73,31 @@
     background-color: rgba(1, 25, 74, 0.3);
     color: #0FB8D6;
 }
+
+/* Estilos para dispositivos móbiles pequeños */
+@media screen and (max-width: 480px) {
+
+    .ProjectsContainer {
+        width: 100%;
+    }
+
+    .ProjectsContainer h2 {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .optionProyect {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .informationOptionContainer {
+        width: 100%;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  }
