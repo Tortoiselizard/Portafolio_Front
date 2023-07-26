@@ -16,7 +16,6 @@ function Nav () {
           const sectionCurrent = document.getElementsByName(section.slice(1))[0]
           const currentDiv = sectionCurrent.querySelector('div')
           if (objectSections[section.slice(1)].top <= n && objectSections[section.slice(1)].bottom > n) {
-            console.log('entre con:', section.slice(1))
             sectionCurrent.classList.add(style.currentSectionA)
             currentDiv.classList.add(style.currentSectionDiv)
           } else {
@@ -37,7 +36,7 @@ function Nav () {
     }
     function callSelectCurrentSection () {
       if (window.innerWidth > 480) handleScroll(100)
-      else handleScroll(192)
+      else handleScroll(230)
     }
 
     if (window.innerWidth > 480) {

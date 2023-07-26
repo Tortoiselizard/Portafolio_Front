@@ -87,9 +87,10 @@
 @media screen and (max-width: 480px) {
 
     .ContactContainer {
+        position: absolute;
         align-self: flex-start;
-        margin: 10px 20px;
-        bottom: 40px;
+        margin: 0px 20px;
+        bottom: 40%;
     }
 
     .ContactContainer ul {
