@@ -28,7 +28,12 @@
 
 .informationOptionContainer h3 {
     position: relative;
-    margin: 5px;
+    margin: 5px 0px;
+}
+
+.informationOptionContainer main a {
+    color: white;
+    text-decoration: underline;
 }
 
 .informationOptionContainer h3::after {

@@ -3,11 +3,8 @@ import style from './AboutMe.module.css'
 function AboutMe () {
   return (
     <section id='AboutMe' className={style.AboutMeContainer}>
-      <p>En marzo del 2022 un amigo me recomendó hacer un Bootcamp online de desarrollo web y no lo dudé ni un segundo. Cuatro meses despues pude dar mis primeros pasos con los lenguajes: HTML, CSS y JavaScript.</p>
-      <br />
-      <p>Aunque mi formación en <strong><span>ingeniería mecánica</span></strong> me ayudó mucho a lograr mis primeras metas, no fue hasta octubre de ese mismo año que pude empezar mis estudios formales en el desarrollo web y me di cuenta de lo mucho que me gustaba la programación. Ese impulso fué necesario para poder sobrellevar las exigencias del programa, que tuvo una extención de 4 meses.</p>
-      <br />
-      <p>Finalmente, el mes de febrero de este año pude terminar mi formación y graduarme como <strong><span>Desarrollador Web Full Stack</span></strong>. Pero también me di cuenta que el aprendizaje en el desarrollo web no termina nunca y que mi camino apenas empezaba.</p>
+      <p>El año pasado un amigo me recomendó incursionar en el mundo del <strong><span>desarrollo web</span></strong>. Después de hacer un curso corto me di cuenta que realmente me gustaba escribir código, así que dejé mi trabajo como técnico de ascensores y decidí redireccionar mi rumbo profesional.</p>
+      <p>Un año después logré graduarme como <strong><span>Full Stack Web Developer</span></strong> y me doy cuenta que aunque mi carrera como <strong><span>Ingeniero Mecánico</span></strong> aún me sigue gustando, definitivamente he encontrado otra pación en mi vida.</p>
     </section>
   )
 }

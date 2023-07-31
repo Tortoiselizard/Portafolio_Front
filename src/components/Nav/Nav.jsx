@@ -64,7 +64,7 @@ function Nav () {
         <li>
           <a name='AboutMe' onClick={() => scrollToSection('AboutMe')}>
             <div />
-            <label>Sobre mi</label>
+            <label>Sobre mí</label>
           </a>
         </li>
         <li>
@@ -79,12 +79,6 @@ function Nav () {
             <label>Proyectos</label>
           </a>
         </li>
-        {/* <li>
-          <a name='Technologies' onClick={() => scrollToSection('Technologies')}>
-            <div />
-            <label>Habilidades</label>
-          </a>
-        </li> */}
       </ul>
     </nav>
   )
