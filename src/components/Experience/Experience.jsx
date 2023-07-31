@@ -13,7 +13,7 @@ function Experience () {
               <h4>Desarrollador web</h4>
             </header>
             <main>
-              <p>Participé en la elaboración de la aplicación Novelty Books, un E-commers de libros. Trabajé en el desarrollo de las herramientas de gestión de la aplicación, facilitando la administración de información en la base de datos. Además diseñé el apartado estadístico donde se muestran gráficas y tablas referentes a los usuarios, libros, y ordenes de compra-venta.</p>
+              <p>Participé en la elaboración de la aplicación Novelty Books, un E-commers de libros. Trabajé en el desarrollo de las herramientas de gestión de la aplicación, facilitando la administración de información en la base de datos. Además diseñé el apartado estadístico donde se muestran gráficas y tablas referentes a los usuarios, libros, y órdenes de compra-venta.</p>
               <p>Entre otras actividades, también participé en la integración del sistema de filtrados combinados, pudiendo ejecutarlos individualmente o en conjunto para hacer búsquedas más precisas.</p>
             </main>
             <footer>
