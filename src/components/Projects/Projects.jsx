@@ -27,7 +27,7 @@ function Projects () {
               <a href='https://pi-dogs-front-mu.vercel.app/'><h3>PI-Dogs</h3></a>
             </header>
             <main>
-              <p>PI-Dogs es un proyecto académico basado en una aplicación web tipo wiki, diseñada para la comunidad amante de los perros. Con esta aplicación podrás buscar fácilmente la información más relevante de cada raza, como: su tamaño, peso y años de vida, temperamentos, etc. También podrás añadir nuevas razas de perro que no se encuentre registradas y en caso de que veas que alguien ha cometido un error al registrar alguna, también podrás hacer las modificaciones necesarias.</p>
+              <p>PI-Dogs es un proyecto académico basado en una aplicación web tipo wiki, diseñada para la comunidad amante de los perros. Con esta aplicación podrás buscar fácilmente la información más relevante de cada raza, como: su tamaño, peso, años de vida, temperamentos, etc. También podrás añadir nuevas razas de perros que no se encuentren registradas y hacer modificaciones en caso de ser necesario.</p>
             </main>
           </div>
         </li>
