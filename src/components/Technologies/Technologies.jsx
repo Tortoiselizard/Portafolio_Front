@@ -5,6 +5,7 @@ import javascriptLogo from '../../img/javascriptLogoWhite.png'
 import reactLogo from '../../img/reactLogoWhite.png'
 import reduxLogo from '../../img/reduxLogoWhite.png'
 import bootstrapLogo from '../../img/BootstrapLogoWhite.png'
+import gsapLogo from '../../assets/Technologies/gsapLogoGreen.png'
 import nodeJSLogo from '../../img/nodejsLogoWhite.png'
 import expressLogo from '../../img/expressJSLogo.png'
 import sequelizeLogo from '../../img/sequelizeLogoWhite.png'
@@ -26,6 +27,7 @@ function Technologies () {
           <li><img src={reactLogo} alt='React' /></li>
           <li><img src={reduxLogo} alt='Redux' /></li>
           <li><img src={bootstrapLogo} alt='Bootstrap' /></li>
+          <li><img src={gsapLogo} alt='GSAP' /></li>
         </ul>
         <ul className={style.TechnologiesBackContainer}>
           <li><img src={nodeJSLogo} alt='NodeJS' /></li>
