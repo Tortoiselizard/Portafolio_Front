@@ -1,6 +1,24 @@
 {
     "experiences": [
         {
+            "date": ["ago/2023", "sep/2023"],
+            "company": "iCreativa",
+            "position": "Desarrollador web",
+            "content": [
+                "Participé en el desarrollo y maquetado de una aplicación web informativa. Trabajé en el desarrollo de herramientas interactivas de la aplicación, contenido multimedia y animaciones. El mayor reto en este proyecto fué la elaboración de las animaciones con ScrollTrigger, lo que permite la reproducción de la animación conforme el usuario se desplaza por la aplicación.",
+                "Para lograr superar este reto se utilizó GSAP (GreenSock Animation Platform) y varias horas de lectura de la documentación, preguntas en el foro y pruebas fuera del entorno de trabajo."
+            ],
+            "footer": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "GSAP",
+                "Git",
+                "GitHub"
+            ]
+        },
+        {
             "date": ["ene/2023", "feb/2023"],
             "company": "Novelty Books",
             "position": "Desarrollador web",
