@@ -7,6 +7,10 @@ import Contact from './components/Contact/Contact'
 
 import './App.css'
 
+import data from '../data.json'
+
+const { experiences } = data
+
 function App () {
   return (
     <main className='main-Container'>
@@ -16,7 +20,7 @@ function App () {
       </section>
       <section id='main-scroll-Contianer' className='main-scroll-Contianer'>
         <AboutMe />
-        <Experience />
+        <Experience experiences={experiences} />
         <Projects />
         <Technologies />
       </section>
