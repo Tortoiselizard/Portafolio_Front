@@ -1,0 +1,72 @@
+{
+    "experiences": [
+        {
+            "date": ["ago/2023", "sep/2023"],
+            "company": "iCreativa",
+            "position": "Desarrollador web",
+            "content": [
+                "Participé en el desarrollo y maquetado de una aplicación web informativa. Trabajé en el desarrollo de herramientas interactivas de la aplicación, contenido multimedia y animaciones. El mayor reto en este proyecto fué la elaboración de las animaciones con ScrollTrigger, lo que permite la reproducción de la animación conforme el usuario se desplaza por la aplicación.",
+                "Para superar este reto se utilizó GSAP (GreenSock Animation Platform) y varias horas de lectura de la documentación, preguntas en el foro y pruebas fuera del entorno de trabajo."
+            ],
+            "footer": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "GSAP",
+                "Git",
+                "GitHub"
+            ]
+        },
+        {
+            "date": ["ene/2023", "feb/2023"],
+            "company": "Novelty Books",
+            "position": "Desarrollador web",
+            "content": [
+                "Participé en la elaboración de la aplicación Novelty Books, un E-commers de libros. Trabajé en el desarrollo de las herramientas de gestión de la aplicación, facilitando la administración de información en la base de datos. Además diseñé el apartado estadístico donde se muestran gráficas y tablas referentes a los usuarios, libros, y órdenes de compra-venta.",
+                "Entre otras actividades, también participé en la integración del sistema de filtrados combinados, pudiendo ejecutarlos individualmente o en conjunto para hacer búsquedas más precisas."
+            ],
+            "footer": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "NextJS",
+                "Next Auth",
+                "Stripe",
+                "Chart.js",
+                "Bootstrap",
+                "Node.js",
+                "Cloudinary",
+                "Mongoose",
+                "MongoDB",
+                "ExpressJS",
+                "Nodemailer",
+                "Git",
+                "GitHub"
+            ]
+        },
+        {
+            "date": ["dic/2022", "ene/2023"],
+            "company": "PI-Dogs",
+            "position": "Desarrollador web",
+            "content": [
+                "Diseñé y desarrollé una aplicación web donde puedes hacer búsquedas de diferentes razas de perros, visualizando el detalle de cada raza y consultar las características físicas y psicológicas más relevantes del canino, como: temperamento, altura, años de vida, etc. Para este proyecto fue necesario desarrollar un servidor que busca información en una base de datos propia y en una API externa. Uno de mis mayores retos fue crear el sistema de filtrados combinados para poder hacer búsquedas más precisas."
+            ],
+            "footer": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Redux",
+                "Node.js",
+                "Express",
+                "Sequelize",
+                "MongoDB",
+                "PostgreSQL",
+                "Git",
+                "GitHub"
+            ]
+        }
+    ]
+}
