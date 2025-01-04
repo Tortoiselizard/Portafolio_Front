@@ -3,8 +3,8 @@ import style from './AboutMe.module.css'
 function AboutMe () {
   return (
     <section id='AboutMe' className={style.AboutMeContainer}>
-      <p>El año pasado un amigo me recomendó incursionar en el mundo del <strong><span>desarrollo web</span></strong>. Después de hacer un curso corto me di cuenta que realmente me gustaba escribir código, así que dejé mi trabajo como técnico de ascensores y decidí redireccionar mi rumbo profesional.</p>
-      <p>Un año después logré graduarme como <strong><span>Full Stack Web Developer</span></strong> y me doy cuenta que aunque mi carrera como <strong><span>Ingeniero Mecánico</span></strong> aún me sigue gustando, definitivamente he encontrado otra pasión en mi vida.</p>
+      <p>Soy <strong><span>desarrollador web fullstack</span></strong> con un año de experiencia en la creación de soluciones digitales que abordan necesidades reales. Me especializo en diseñar y desarrollar herramientas funcionales y eficaces que optimizan procesos y mejoran la experiencia del usuario.</p>
+      <p>Además de mi interés por el <strong><span>desarrollo web</span></strong>, me entusiasma el mundo de los videojuegos y sueño con crear experiencias interactivas que combinen tecnología y creatividad.</p>
     </section>
   )
 }

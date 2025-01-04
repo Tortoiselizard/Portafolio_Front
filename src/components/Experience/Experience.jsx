@@ -22,7 +22,7 @@ function Experience ({ experiences }) {
                   }
                 </main>
                 <footer>
-                  <p>Las tecnologías con las que se trabajaron fueron:</p>
+                  <p>Las tecnologías usadas fueron:</p>
                   <ul className={style.listSkills}>
                     {
                       experience.footer.map(technology => (
