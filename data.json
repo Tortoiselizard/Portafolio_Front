@@ -1,12 +1,32 @@
 {
     "experiences": [
         {
+            "date": ["nov/2023", "actualidad"],
+            "company": "Beraud Gourmet",
+            "position": "Desarrollador web fullstack",
+            "content": [
+                "Participé en el desarrollo de un ecommerce de pizzas en donde:",
+                "- Diseñé y desarrollé interfaces gráficas para las secciones de cliente y administrador de una plataforma de ecommerce.",
+                "- Implementé funcionalidades avanzadas como autenticación con Google y manejo de pagos con Stripe.",
+                "- Integré Google Maps para permitir a los clientes seleccionar tiendas basadas en su ubicación.",
+                "- Creé un sistema para el administrador que permite gestionar productos, ingredientes y tiendas, además de visualizar tablas resumen y detalles."
+            ],
+            "footer": [
+                "NextJS",
+                "MUI",
+                "TypeScript",
+                "ExpressJS",
+                "TypeORM",
+                "PostgreSQL"
+            ]
+        },
+        {
             "date": ["ago/2023", "sep/2023"],
             "company": "iCreativa",
-            "position": "Desarrollador web",
+            "position": "Desarrollador web frontend",
             "content": [
-                "Participé en el desarrollo y maquetado de una aplicación web informativa. Trabajé en el desarrollo de herramientas interactivas de la aplicación, contenido multimedia y animaciones. El mayor reto en este proyecto fué la elaboración de las animaciones con ScrollTrigger, lo que permite la reproducción de la animación conforme el usuario se desplaza por la aplicación.",
-                "Para superar este reto se utilizó GSAP (GreenSock Animation Platform) y varias horas de lectura de la documentación, preguntas en el foro y pruebas fuera del entorno de trabajo."
+                "- Participé en el desarrollo de una landing page interactiva diseñada para presentar información de manera visualmente atractiva y dinámica.",
+                "- Implementé animaciones avanzadas utilizando GSAP, sincronizadas con el movimiento del scroll para mejorar la experiencia del usuario y captar su atención de forma efectiva."
             ],
             "footer": [
                 "HTML",
@@ -17,55 +37,30 @@
                 "Git",
                 "GitHub"
             ]
-        },
+        }
+    ],
+    "proyects": [
         {
-            "date": ["ene/2023", "feb/2023"],
-            "company": "Novelty Books",
-            "position": "Desarrollador web",
+            "link": "https://www.beraudslice.app/",
+            "image": {
+                "url": "/grupoberaud.jpg",
+                "alt": "Grupo Beraud"
+            },
+            "title": "Grupo Beraud",
             "content": [
-                "Participé en la elaboración de la aplicación Novelty Books, un E-commers de libros. Trabajé en el desarrollo de las herramientas de gestión de la aplicación, facilitando la administración de información en la base de datos. Además diseñé el apartado estadístico donde se muestran gráficas y tablas referentes a los usuarios, libros, y órdenes de compra-venta.",
-                "Entre otras actividades, también participé en la integración del sistema de filtrados combinados, pudiendo ejecutarlos individualmente o en conjunto para hacer búsquedas más precisas."
-            ],
-            "footer": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "React",
-                "NextJS",
-                "Next Auth",
-                "Stripe",
-                "Chart.js",
-                "Bootstrap",
-                "Node.js",
-                "Cloudinary",
-                "Mongoose",
-                "MongoDB",
-                "ExpressJS",
-                "Nodemailer",
-                "Git",
-                "GitHub"
+                "Grupo Beraud es una plataforma de ecommerce diseñada para simplificar la compra de tu pizza favorita. Navega fácilmente por el catálogo de pizzas disponibles y selecciona tu tienda preferida o solicita delivery a tu ubicación actual. Añade múltiples productos al carrito y realiza pagos seguros con tarjeta de crédito. Regístrate y lleva un control detallado de tus pedidos para gestionar tus compras de manera eficiente.",
+                "Como administrador gestiona pedidos, pizzas, tiendas, ingredientes y usuarios mediante una interfaz intuitiva que permite mantener el control total del negocio."
             ]
         },
         {
-            "date": ["dic/2022", "ene/2023"],
-            "company": "PI-Dogs",
-            "position": "Desarrollador web",
+            "link": "https://scrollytelling-trata.coalicioncorett.com/",
+            "image": {
+                "url": "/TRATA_PERSONAS.jpg",
+                "alt": "Trata_Personas"
+            },
+            "title": "Trata de personas",
             "content": [
-                "Diseñé y desarrollé una aplicación web donde puedes hacer búsquedas de diferentes razas de perros, visualizando el detalle de cada raza y consultar las características físicas y psicológicas más relevantes del canino, como: temperamento, altura, años de vida, etc. Para este proyecto fue necesario desarrollar un servidor que busca información en una base de datos propia y en una API externa. Uno de mis mayores retos fue crear el sistema de filtrados combinados para poder hacer búsquedas más precisas."
-            ],
-            "footer": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "React",
-                "Redux",
-                "Node.js",
-                "Express",
-                "Sequelize",
-                "MongoDB",
-                "PostgreSQL",
-                "Git",
-                "GitHub"
+                "Trata de Personas es una página web diseñada para informar y educar sobre un tema crítico mediante una experiencia visualmente atractiva e interactiva. La página presenta información clave a través de elementos multimedia como mapas, notas de interés, animaciones, videos y material de apoyo." 
             ]
         }
     ]
