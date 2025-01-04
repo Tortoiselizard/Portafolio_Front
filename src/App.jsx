@@ -9,7 +9,7 @@ import './App.css'
 
 import data from '../data.json'
 
-const { experiences } = data
+const { experiences, proyects } = data
 
 function App () {
   return (
@@ -21,7 +21,7 @@ function App () {
       <section id='main-scroll-Contianer' className='main-scroll-Contianer'>
         <AboutMe />
         <Experience experiences={experiences} />
-        <Projects />
+        <Projects proyects={proyects}/>
         <Technologies />
       </section>
     </main>
