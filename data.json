@@ -62,6 +62,17 @@
             "content": [
                 "Trata de Personas es una página web diseñada para informar y educar sobre un tema crítico mediante una experiencia visualmente atractiva e interactiva. La página presenta información clave a través de elementos multimedia como mapas, notas de interés, animaciones, videos y material de apoyo." 
             ]
+        },
+        {
+            "link": "https://movie-search-engine-ojdw.vercel.app/",
+            "image": {
+                "url": "/Movie_Search_Engine.png",
+                "alt": "Movie Search Engine"
+            },
+            "title": "Movie Search Engine",
+            "content": [
+                "Movie Search Engine es una aplicación web diseñada para transformar la manera en que los usuarios buscan y exploran películas. A través de una interfaz limpia e intuitiva, la plataforma ofrece una experiencia rica en detalles, permitiendo a los usuarios filtrar por texto y género, además de navegar por información clave de películas y el elenco." 
+            ]
         }
     ]
 }

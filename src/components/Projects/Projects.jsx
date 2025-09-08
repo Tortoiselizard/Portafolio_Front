@@ -1,24 +1,26 @@
 import style from './Projects.module.css'
-import noveltyBooks from '../../img/noveltyBooks.jpg'
-import piDogs from '../../img/PI-Dogs.jpg'
 
 function Projects ({ proyects }) {
+  console.log('proyects:', proyects)
   return (
     <section id='Projects' className={style.ProjectsContainer}>
       <h2>Proyectos</h2>
       <ul>
         {
           proyects.map(item => (
-            <li className={style.optionProyect}>
-              <a href={item.link}><img src={item.image.url} alt={item.image.alt} /></a>
+            <li
+              key={item.title}
+              className={style.optionProyect}
+            >
+              <a href={item.link} target='_blank' rel='noreferrer'><img src={item.image.url} alt={item.image.alt} /></a>
               <div className={style.informationOptionContainer}>
                 <header>
-                  <a href={item.link}><h3>{item.title}</h3></a>
+                  <a href={item.link} target='_blank' rel='noreferrer'><h3>{item.title}</h3></a>
                 </header>
                 <main>
                   {
-                    item.content.map(paragraph => (
-                      <p>{paragraph}</p>
+                    item.content.map((paragraph, index) => (
+                      <p key={index}>{paragraph}</p>
                     ))
                   }
                 </main>
