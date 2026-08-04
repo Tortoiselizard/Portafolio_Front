@@ -1,7 +1,49 @@
 {
     "experiences": [
         {
-            "date": ["nov/2023", "actualidad"],
+            "date": ["mar/2026", "jul/2026"],
+            "company": "OlaLingo",
+            "position": "Líder de proyecto — Desarrollador web fullstack",
+            "content": [
+                "Lideré el desarrollo de OlaLingo, una plataforma EdTech de aprendizaje de idiomas (clases en vivo, e-learning, suscripciones y pagos), en donde:",
+                "- Como líder de un equipo de 2, organicé el tablero de Jira y definí el flujo de trabajo end-to-end, cubriendo tanto la infraestructura (servidor remoto y despliegues) como el desarrollo de la aplicación.",
+                "- Tomé el producto desde un estado ya iniciado y lo llevé hasta un MVP entregable, aportando cerca de 118 tickets.",
+                "- Integré las clases en vivo con Google Meet (Calendar y Drive API): agendado, grabación automática, seguimiento de asistencia y transiciones de estado gestionadas con cron jobs.",
+                "- Construí el sistema de pagos con MercadoPago y Stripe, con confirmación por webhook idempotente y transacciones de base de datos, eliminando errores de doble cobro y reembolsos indebidos.",
+                "- Migré el sistema de videollamadas desde un stack propio de WebRTC (mediasoup) a Google Meet, y el envío de correos de SMTP a Resend, simplificando la infraestructura.",
+                "- Automaticé el CI/CD del frontend y del admin sobre un self-hosted runner propio (Podman), ejecutando las suites de tests end-to-end en verde en cada pull request (383/383 y 158/158)."
+            ],
+            "footer": [
+                "NextJS",
+                "NestJS",
+                "TypeScript",
+                "PostgreSQL",
+                "Stripe",
+                "MercadoPago",
+                "Podman"
+            ]
+        },
+        {
+            "date": ["oct/2025", "mar/2026"],
+            "company": "Gonvar",
+            "position": "Desarrollador web fullstack",
+            "content": [
+                "Me responsabilicé del desarrollo continuo de una plataforma educativa de cursos online, en donde:",
+                "- Optimicé el front-end y el back-end para mejorar la escalabilidad del sistema.",
+                "- Logré una mejora del 70% en la velocidad de carga de datos en rutas críticas gracias al refactor de consultas con TypeORM y a una arquitectura de datos más eficiente en el backend.",
+                "- Reforcé la seguridad de la aplicación con validaciones robustas y buenas prácticas para la protección de los datos de usuarios y las transacciones.",
+                "- Diseñé y desplegué nuevas funcionalidades para enriquecer la experiencia de aprendizaje de los alumnos, con una integración fluida en la arquitectura existente."
+            ],
+            "footer": [
+                "NextJS",
+                "NestJS",
+                "TypeScript",
+                "TypeORM",
+                "PostgreSQL"
+            ]
+        },
+        {
+            "date": ["nov/2023", "jul/2025"],
             "company": "Beraud Gourmet",
             "position": "Desarrollador web fullstack",
             "content": [
