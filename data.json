@@ -5,13 +5,13 @@
             "company": "OlaLingo",
             "position": "Líder de proyecto — Desarrollador web fullstack",
             "content": [
-                "Lideré el desarrollo de OlaLingo, una plataforma EdTech de aprendizaje de idiomas (clases en vivo, e-learning, suscripciones y pagos), en donde:",
-                "- Como líder de un equipo de 2, organicé el tablero de Jira y definí el flujo de trabajo end-to-end, cubriendo tanto la infraestructura (servidor remoto y despliegues) como el desarrollo de la aplicación.",
-                "- Tomé el producto desde un estado ya iniciado y lo llevé hasta un MVP entregable, aportando cerca de 118 tickets.",
-                "- Integré las clases en vivo con Google Meet (Calendar y Drive API): agendado, grabación automática, seguimiento de asistencia y transiciones de estado gestionadas con cron jobs.",
-                "- Construí el sistema de pagos con MercadoPago y Stripe, con confirmación por webhook idempotente y transacciones de base de datos, eliminando errores de doble cobro y reembolsos indebidos.",
-                "- Migré el sistema de videollamadas desde un stack propio de WebRTC (mediasoup) a Google Meet, y el envío de correos de SMTP a Resend, simplificando la infraestructura.",
-                "- Automaticé el CI/CD del frontend y del admin sobre un self-hosted runner propio (Podman), ejecutando las suites de tests end-to-end en verde en cada pull request (383/383 y 158/158)."
+                "Trabajé en OlaLingo, una plataforma EdTech de aprendizaje de idiomas (clases en vivo, e-learning, suscripciones y pagos), como líder de un equipo de 2, en donde:",
+                "- Organicé el tablero de Jira y definí el flujo de trabajo de desarrollo end-to-end, cubriendo tanto la infraestructura (servidor remoto y despliegues) como el desarrollo de la aplicación.",
+                "- Contribuí a avanzar el producto hacia su MVP, estabilizando utilidades heredadas que habían quedado desfasadas tras varias migraciones y verificando su correcto funcionamiento, aportando cerca de 118 tickets.",
+                "- Participé en la integración de las clases en vivo con Google Meet (Calendar y Drive API): agendado, grabación automática, seguimiento de asistencia y transiciones de estado gestionadas con cron jobs.",
+                "- Participé en la construcción del sistema de pagos con MercadoPago y Stripe, con confirmación por webhook idempotente y transacciones de base de datos, eliminando errores de doble cobro y reembolsos indebidos.",
+                "- Participé en la migración del sistema de videollamadas desde un stack propio de WebRTC (mediasoup) a Google Meet, y del envío de correos de SMTP a Resend, simplificando la infraestructura.",
+                "- Automaticé el CI/CD del frontend y del admin sobre un self-hosted runner propio (Podman), ejecutando las suites de tests end-to-end en verde en cada pull request (383/383 y 158/158)"
             ],
             "footer": [
                 "NextJS",
@@ -20,7 +20,11 @@
                 "PostgreSQL",
                 "Stripe",
                 "MercadoPago",
-                "Podman"
+                "Podman",
+                "TypeORM",
+                "React",
+                "Socket.IO",
+                "MercadoPago"
             ]
         },
         {
@@ -44,14 +48,14 @@
         },
         {
             "date": ["nov/2023", "jul/2025"],
-            "company": "Beraud Gourmet",
+            "company": "Béraud Gourmet",
             "position": "Desarrollador web fullstack",
             "content": [
-                "Participé en el desarrollo de un ecommerce de pizzas en donde:",
+                "Participé en el desarrollo full-stack de una plataforma de comercio electrónico a medida para la venta de pizzas, en donde:",
                 "- Diseñé y desarrollé interfaces gráficas para las secciones de cliente y administrador de una plataforma de ecommerce.",
-                "- Implementé funcionalidades avanzadas como autenticación con Google y manejo de pagos con Stripe.",
-                "- Integré Google Maps para permitir a los clientes seleccionar tiendas basadas en su ubicación.",
-                "- Creé un sistema para el administrador que permite gestionar productos, ingredientes y tiendas, además de visualizar tablas resumen y detalles."
+                "- Implementé funcionalidades clave como gestión de productos, carrito de compras, pasarela de pago y gestión de usuarios",
+                "- Integré APIs de terceros: Passport (autenticación), Stripe (pagos), Google Maps (geolocalización) y Uber (delivery)",
+                "- Creé un panel de administración para gestionar productos, ingredientes y tiendas, además de visualizar tablas resumen y detalles"
             ],
             "footer": [
                 "NextJS",
@@ -59,7 +63,10 @@
                 "TypeScript",
                 "ExpressJS",
                 "TypeORM",
-                "PostgreSQL"
+                "PostgreSQL",
+                "Redux",
+                "Node.js",
+                "Stripe"
             ]
         },
         {
@@ -90,18 +97,19 @@
             },
             "title": "Movie Search Engine",
             "content": [
-                "Movie Search Engine es una aplicación web diseñada para transformar la manera en que los usuarios buscan y exploran películas. A través de una interfaz limpia e intuitiva, la plataforma ofrece una experiencia rica en detalles, permitiendo a los usuarios filtrar por texto y género, además de navegar por información clave de películas y el elenco." 
+                "Movie Search Engine es una aplicación web full-stack para buscar y explorar películas. Ofrece búsqueda avanzada con filtros combinados (título, sinopsis y género), vista de detalle de cada película con su reparto, y fichas de actores con su biografía y filmografía",
+                "A nivel técnico, el frontend nunca consume la API de TMDB directamente: las peticiones pasan por funciones serverless organizadas en capas que protegen el token de acceso, de modo que nunca llega al cliente."
             ]
         },
         {
             "link": "https://www.beraudslice.app/",
             "image": {
                 "url": "/grupoberaud.jpg",
-                "alt": "Grupo Beraud"
+                "alt": "Grupo Béraud"
             },
-            "title": "Grupo Beraud",
+            "title": "Grupo Béraud",
             "content": [
-                "Grupo Beraud es una plataforma de ecommerce diseñada para simplificar la compra de tu pizza favorita. Navega fácilmente por el catálogo de pizzas disponibles y selecciona tu tienda preferida o solicita delivery a tu ubicación actual. Añade múltiples productos al carrito y realiza pagos seguros con tarjeta de crédito. Regístrate y lleva un control detallado de tus pedidos para gestionar tus compras de manera eficiente.",
+                "Grupo Béraud es una plataforma de ecommerce diseñada para simplificar la compra de tu pizza favorita. Navega fácilmente por el catálogo de pizzas disponibles y selecciona tu tienda preferida o solicita delivery a tu ubicación actual. Añade múltiples productos al carrito y realiza pagos seguros con tarjeta de crédito. Regístrate y lleva un control detallado de tus pedidos para gestionar tus compras de manera eficiente.",
                 "Como administrador gestiona pedidos, pizzas, tiendas, ingredientes y usuarios mediante una interfaz intuitiva que permite mantener el control total del negocio."
             ]
         },

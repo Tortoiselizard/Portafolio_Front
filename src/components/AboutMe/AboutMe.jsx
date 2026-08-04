@@ -3,8 +3,8 @@ import style from './AboutMe.module.css'
 function AboutMe () {
   return (
     <section id='AboutMe' className={style.AboutMeContainer}>
-      <p>Soy <strong><span>desarrollador web fullstack</span></strong> con dos años de experiencia en la creación de soluciones digitales que abordan necesidades reales. Me especializo en diseñar y desarrollar herramientas funcionales y eficaces que optimizan procesos y mejoran la experiencia del usuario.</p>
-      <p>Además de mi interés por el <strong><span>desarrollo web</span></strong>, me entusiasma el mundo de los videojuegos y sueño con crear experiencias interactivas que combinen tecnología y creatividad.</p>
+      <p>Soy <strong><span>desarrollador web full-stack</span></strong> con más de 2 años de experiencia construyendo y optimizando plataformas de EdTech y e-commerce. Trabajo en el ecosistema TypeScript —React y Next.js en el frontend, Node, NestJS y TypeORM en el backend— con foco en llevar productos a producción y hacerlos fiables: rendimiento, seguridad, pagos e integraciones.</p>
+      <p>Me integro rápido con arquitecturas existentes y bases de código heredadas, y disfruto resolviendo problemas técnicos concretos que mejoran la experiencia del usuario final.</p>
     </section>
   )
 }
