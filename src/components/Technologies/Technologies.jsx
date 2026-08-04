@@ -2,13 +2,16 @@ import style from './Technologies.module.css'
 
 import htmlLogo from '../../img/html5LogoWhite.png'
 import javascriptLogo from '../../img/javascriptLogoWhite.png'
+import typescriptLogo from '../../img/typescriptLogo.png'
 import reactLogo from '../../img/reactLogoWhite.png'
+import nextjsLogo from '../../img/nextjsLogo.png'
 import reduxLogo from '../../img/reduxLogoWhite.png'
-import bootstrapLogo from '../../img/BootstrapLogoWhite.png'
 import gsapLogo from '../../assets/Technologies/gsapLogoGreen.png'
 import nodeJSLogo from '../../img/nodejsLogoWhite.png'
 import expressLogo from '../../img/expressJSLogo.png'
+import nestjsLogo from '../../img/nestjsLogo.png'
 import sequelizeLogo from '../../img/sequelizeLogoWhite.png'
+import typeormLogo from '../../img/typeormLogo.png'
 import postgreSQLLogo from '../../img/postgreSQLLogoWhite2.png'
 import sqlLogo from '../../img/SQLLogoWhite.png'
 import gitLogo from '../../img/GitLogoWhite.png'
@@ -24,15 +27,18 @@ function Technologies () {
           <li><img src={htmlLogo} alt='HTML' /></li>
           <li><img src={cssLogo} alt='CSS' /></li>
           <li><img src={javascriptLogo} alt='JavaScript' /></li>
+          <li><img src={typescriptLogo} alt='TypeScript' /></li>
           <li><img src={reactLogo} alt='React' /></li>
+          <li><img src={nextjsLogo} alt='Next.js' /></li>
           <li><img src={reduxLogo} alt='Redux' /></li>
-          <li><img src={bootstrapLogo} alt='Bootstrap' /></li>
           <li><img src={gsapLogo} alt='GSAP' /></li>
         </ul>
         <ul className={style.TechnologiesBackContainer}>
           <li><img src={nodeJSLogo} alt='NodeJS' /></li>
           <li><img src={expressLogo} alt='Express' /></li>
+          <li><img src={nestjsLogo} alt='NestJS' /></li>
           <li><img src={sequelizeLogo} alt='Sequelize' /></li>
+          <li><img src={typeormLogo} alt='TypeORM' /></li>
           <li><img src={postgreSQLLogo} alt='PostgreSQL' /></li>
           <li><img src={sqlLogo} alt='SQL' /></li>
         </ul>
