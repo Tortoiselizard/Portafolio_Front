@@ -23,8 +23,7 @@
                 "Podman",
                 "TypeORM",
                 "React",
-                "Socket.IO",
-                "MercadoPago"
+                "Socket.IO"
             ]
         },
         {
