@@ -101,18 +101,7 @@
             ]
         },
         {
-            "link": "https://www.beraudslice.app/",
-            "image": {
-                "url": "/grupoberaud.jpg",
-                "alt": "Grupo Béraud"
-            },
-            "title": "Grupo Béraud",
-            "content": [
-                "Grupo Béraud es una plataforma de ecommerce diseñada para simplificar la compra de tu pizza favorita. Navega fácilmente por el catálogo de pizzas disponibles y selecciona tu tienda preferida o solicita delivery a tu ubicación actual. Añade múltiples productos al carrito y realiza pagos seguros con tarjeta de crédito. Regístrate y lleva un control detallado de tus pedidos para gestionar tus compras de manera eficiente.",
-                "Como administrador gestiona pedidos, pizzas, tiendas, ingredientes y usuarios mediante una interfaz intuitiva que permite mantener el control total del negocio."
-            ]
-        },
-        {
+            "hidden": true,
             "link": "https://scrollytelling-trata.coalicioncorett.com/",
             "image": {
                 "url": "/TRATA_PERSONAS.jpg",

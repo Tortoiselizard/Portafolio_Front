@@ -1,13 +1,12 @@
 import style from './Projects.module.css'
 
 function Projects ({ proyects }) {
-  console.log('proyects:', proyects)
   return (
     <section id='Projects' className={style.ProjectsContainer}>
       <h2>Proyectos</h2>
       <ul>
         {
-          proyects.map(item => (
+          proyects.filter(item => !item.hidden).map(item => (
             <li
               key={item.title}
               className={style.optionProyect}
